@@ -1,0 +1,125 @@
+/* Your styles here */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c5c8c9;
+}
+
+header{
+    background-color: #222F3F;
+}
+
+header img{
+    padding: 1em;
+}
+
+nav{
+    background-color: #364759;
+    padding: 0.5em;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 1em 0 1em;
+    font-size: 0.9em;
+}
+
+main{
+    margin: 0 1em 0 1em;
+}
+
+#gift{
+    background-image: url(../images/bg-image.png);
+    margin: 1em 0 1em 0;
+    background-size: 100%;
+    background-position: center;
+}
+
+#button {
+    background-color: #F56600;
+    border: none;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+}
+
+#button > a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 0.8em;
+}
+
+h1{
+    
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: white;
+    padding: 2em 0 1em 0;
+    font-size: 1.5em;
+}
+
+#gift > p{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 2em;
+}
+
+section{
+    background-color: white;
+}
+
+h2{
+    display: inline;
+    margin: 1em;
+}
+
+main a{
+    text-decoration: none;
+    color: #14676a;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin: 1em;
+}
+
+#foto > img{
+    height: 340px;
+    width: 320px;
+    box-shadow: 20px 20px 9px 0px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 1em 1em 1em 1em;
+    border-radius: 15px 15px 15px 15px;
+}
+
+main > p{
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.fotoShop{
+    margin-top: 1em;
+}
+
+.fotoShop > img{
+    max-width: 100%;
+}
+
+footer > p{
+    background-color: #364759;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    padding: 0.8em 0 0.8em 0;
+}
+
+footer > div{
+    background-color: #222F3F;
+    text-align: center;
+}
+
+footer div img{
+    margin: 1.4em 0 1.4em 0;
+}
